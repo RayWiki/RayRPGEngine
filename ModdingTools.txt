@@ -1,0 +1,5 @@
+﻿Map making: Tiled Map Editor https://www.mapeditor.org/ (exported as a tmj file)
+On New Map window:
+Tile layer format: CVS
+Tile render order: LEFT UP
+Map Size: Fixed, any width, any height
