@@ -11,7 +11,7 @@ namespace Rayteam_Advantures.Tiled
 {
     class TiledBG
     {
-        public static void LoadMaps(String mapname) 
+        public static void LoadMaps(String mapname)  
         {
             string jsonString = File.ReadAllText("./assets/data/maps/"+mapname+".tmj");
             TiledMap map = JsonSerializer.Deserialize<TiledMap>(jsonString);
